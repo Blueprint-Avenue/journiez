@@ -1,0 +1,131 @@
+.header{
+    background-color: #FA1616;
+    color: #E4F9FF;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.header__Container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+.header__List{
+    display: flex;
+    gap: 20px;
+}
+
+.header__ListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.header__ListItem.active{
+    border: 1px solid #E4F9FF;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.header_description{
+    margin: 20px 0px;
+}
+
+
+.header__button{
+    background-color: #12CAD6;
+    color: #E4F9FF;
+    border: none;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header__SearchBar{
+    height: 30px;
+    background-color: #E4F9FF;
+    border: 3px solid #0FABBC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.header__SearchInput{
+    border: none;
+    outline: none;
+    background-color: #E4F9FF;
+}
+
+.header__SearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.header__Icon{
+    color: #0FABBC;
+}
+
+.header__SearchText{
+    color: #161616;
+    cursor: pointer;
+}
+
+.date__Calendar{
+    position: absolute;
+    top: 50px;
+}
+
+.options {
+    position: absolute;
+    top: 50px;
+    background-color: #E4F9FF;
+    color: #0FABBC;
+    border-radius: 5px;
+    border: 3px solid #0FABBC;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.6);
+
+
+}
+
+.option__Item{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.option__Counter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #161616;
+}
+
+
+.option__CounterButton{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #12CAD6;
+    color: #12CAD6;
+    cursor: pointer;
+    background-color: #E4F9FF;
+
+}
+
+.option__CounterButton:disabled{
+    cursor: not-allowed;
+}
