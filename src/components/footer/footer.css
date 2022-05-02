@@ -1,0 +1,29 @@
+.footer{
+    width: 100%;
+    width: 1024px;
+    font-size: 12px;
+}
+
+.footer__Lists{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footer__List{
+    list-style: none;
+    padding: 0;
+
+}
+
+.footer__ListItem{
+    margin-bottom: 10px;
+    color: #0FABBC;
+    cursor: pointer;
+}
+
+
+.footer__Text{
+color: #0FABBC;
+}
