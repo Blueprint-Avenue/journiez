@@ -8,6 +8,7 @@ import "react-date-range/dist/theme/default.css";
 import {format} from "date-fns";
 import {DateRange} from "react-date-range";
 import {SearchItem} from "../../components/searchItem/SearchItem";
+import {useNavigate} from "react-router-dom";
 
 export const List = () => {
 	const location = useLocation();
@@ -15,6 +16,12 @@ export const List = () => {
 	const [date, setDate] = useState(location.state.date);
 	const [options, setOptions] = useState(location.state.options);
 	const [openDate, setOpenDate] = useState(false);
+
+	const navigate = useNavigate();
+
+	const handleSearch = () => {
+		navigate("/hotels/id", {state: {destination, date, options}});
+	};
 
 	return (
 		<div>
@@ -85,7 +92,7 @@ export const List = () => {
 									/>
 								</div>
 							</div>
-							<button>Search</button>
+							<button onClick={handleSearch}>Search</button>
 						</div>
 					</div>
 					<div className="list__Result">
