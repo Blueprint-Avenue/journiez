@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/journiez/static/css/main.93fe1c67.css",
-    "main.js": "/journiez/static/js/main.fa10c037.js",
+    "main.js": "/journiez/static/js/main.b673fd04.js",
     "index.html": "/journiez/index.html",
     "main.93fe1c67.css.map": "/journiez/static/css/main.93fe1c67.css.map",
-    "main.fa10c037.js.map": "/journiez/static/js/main.fa10c037.js.map"
+    "main.b673fd04.js.map": "/journiez/static/js/main.b673fd04.js.map"
   },
   "entrypoints": [
     "static/css/main.93fe1c67.css",
-    "static/js/main.fa10c037.js"
+    "static/js/main.b673fd04.js"
   ]
 }
