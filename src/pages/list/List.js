@@ -7,6 +7,7 @@ import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 import {format} from "date-fns";
 import {DateRange} from "react-date-range";
+import {SearchItem} from "../../components/searchItem/SearchItem";
 
 export const List = () => {
 	const location = useLocation();
@@ -87,7 +88,17 @@ export const List = () => {
 							<button>Search</button>
 						</div>
 					</div>
-					<div className="list__Result"></div>
+					<div className="list__Result">
+						<SearchItem />
+						<SearchItem />
+						<SearchItem />
+						<SearchItem />
+						<SearchItem />
+						<SearchItem />
+						<SearchItem />
+						<SearchItem />
+						<SearchItem />
+					</div>
 				</div>
 			</div>
 		</div>

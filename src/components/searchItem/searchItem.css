@@ -1,0 +1,109 @@
+.search__Item{
+    border: 1px solid #0FABBC;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.search__ItemImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.search__ItemDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.search__ItemTitle{
+    font-size: 20px;
+    color: #0FABBC;
+}
+
+.search__ItemDistance{
+    font-size: 12px;
+}
+
+.search__ItemTaxi{
+    font-size: 12px;
+    background-color: #12CAD6;
+    color: #E4F9FF;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.search__ItemSubtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.search__ItemFeatures{
+    font-size: 12px;
+}
+
+.search__ItemCancel{
+    font-size: 12px;
+    color: #12CAD6;
+    font-weight: bold;
+}
+
+.search__ItemCancelSubtitle{
+    font-size: 12px;
+    color: #12CAD6;
+
+}
+
+.search__ItemDetails{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.search__ItemRating{
+    display: flex;
+    justify-content: space-between
+}
+.search__ItemRating>span {
+    font-weight: 500;
+}
+.search__ItemRating>button {
+    background-color: #12CAD6;
+    color:#E4F9FF;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.search__ItemDetailTexts{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.search__ItemPrice{
+    font-size: 24px;
+}
+
+.search__ItemTax{
+font-size: 12px;
+color: #161616;
+}
+
+.search__ItemCheckButton{
+    background-color: #FA1616;
+    color: #E4F9FF;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
